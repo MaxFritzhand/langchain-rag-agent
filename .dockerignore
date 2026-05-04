@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.git
+.gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.log
+db.sqlite3
+media/
+chroma_db/
+venv/
+.venv/
+env/
+dist/
+build/
+*.egg-info/
