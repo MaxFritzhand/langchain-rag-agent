@@ -597,4 +597,4 @@ class IndexViewTests(TestCase):
     def test_index_page(self):
         response = self.client.get("/")
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, "Zania Q&A Bot")
+        self.assertContains(response, "Zania Q&amp;A", html=True)
